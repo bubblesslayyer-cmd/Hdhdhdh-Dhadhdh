@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ShoppingBag, Instagram } from 'lucide-react';
+import { Menu, X, Instagram } from 'lucide-react';
 import { BRAND_NAME, INSTAGRAM_URL } from '../constants';
 
 const Header: React.FC = () => {
