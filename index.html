@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bijuday | Semijoias Artesanais</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['Lato', 'sans-serif'],
+            },
+            colors: {
+              rose: {
+                50: '#fff5f7',   /* Very light pink background */
+                100: '#ffe4ea',  /* Light pastel pink */
+                200: '#ffc5d5',  /* Soft candy pink */
+                300: '#ffa1b9',  /* Medium pastel pink */
+                400: '#ff7b9c',  /* Rich pastel pink */
+                500: '#ff5c8a',  /* Brand pink (vibrant pastel) */
+                600: '#e64576',  /* Hover darker pink */
+                700: '#be185d',  /* Dark pink text */
+                800: '#9d174d',  /* Darker pink text */
+                900: '#831843',  /* Deep berry */
+              },
+              stone: {
+                50: '#faf9f8',   /* Warm white */
+                100: '#f5f4f2',
+                200: '#e7e5e4',
+                800: '#594a4e',  /* Warm brownish gray text */
+                850: '#423639',
+                900: '#2e2628',  /* Dark chocolate/charcoal */
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-stone-50 text-stone-800 font-sans antialiased selection:bg-rose-200">
+    <div id="root"></div>
+  </body>
+</html>
